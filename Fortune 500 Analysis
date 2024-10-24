@@ -91,5 +91,5 @@ HAVING avg_revenue_billions>=200;
 --Which company in the Retail industry has the least revenue, and what's their revenue? 
 SELECT company_name, min(revenue)
 FROM fortune_companies
-WHERE industry = 'Retail'
-;--Company Z has the least revenue with the value of 180.6.
+WHERE industry = 'Retail';
+--Company Z has the least revenue with the value of 180.6.
